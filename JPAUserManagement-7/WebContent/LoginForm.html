@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/LoginForm.css">
+    <script src="js/LoginForm.js"></script>
+</head>
+<body>
+    <div>
+        <form action="" id="frm" method="post">
+
+            <table >
+                <tr>
+                    <td>
+                        <label for="">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" name="username" placeholder="Enter username here">
+                         <br><label style="color:red" for="" id="usrnm"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="password" placeholder="Enter password here">
+                        <br><label style="color:red" for="" id="passwd"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Login" onclick="validate()"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
